@@ -8,3 +8,5 @@ We use CNN to to classify the type of weather present in the image.There will be
 1:rain
 2:shine
 3:sunrise`
+## 3.Method
+### CNN structure
