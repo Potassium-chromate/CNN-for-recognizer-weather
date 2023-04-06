@@ -12,9 +12,11 @@ We use CNN to to classify the type of weather present in the image.There will be
 ### CNN structure
 ![Alt Text](https://github.com/Potassium-chromate/CNN-for-recognizer-weather/blob/main/Picture/Model%20structure.png)
 ### process
-1. load pictures and resize to (300,300,3)
-2. randomized the order of pictures and labels by using `sklearn.utils.shuffle`
-3. start training
+1. Load pictures and resize to (300,300,3)
+2. Additional augmentation for the picture `rotate 45 and 60 degrees`  
+   `flipped`
+4. Randomized the order of pictures and labels by using `sklearn.utils.shuffle`
+5. Start training
 ## 4.Result
 ### Accuracy curve
 ![Alt Text](https://github.com/Potassium-chromate/CNN-for-recognizer-weather/blob/main/Picture/Accuracy%20curve.png)
