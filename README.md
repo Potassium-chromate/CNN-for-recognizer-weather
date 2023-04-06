@@ -13,4 +13,4 @@ We use CNN to to classify the type of weather present in the image.There will be
 ![Alt Text](https://github.com/Potassium-chromate/CNN-for-recognizer-weather/blob/main/Picture/Model%20structure.png)
 ### process
 1. load pictures and resize to (300,300,3)
-2. randomized the order of pictures and labels by using 'sklearn.utils.shuffle'
+2. randomized the order of pictures and labels by using `sklearn.utils.shuffle`
